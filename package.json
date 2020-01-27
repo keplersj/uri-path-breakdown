@@ -29,7 +29,7 @@
     "@stryker-mutator/core": "^2.4.0",
     "@stryker-mutator/jest-runner": "^2.4.0",
     "@stryker-mutator/typescript": "^2.4.0",
-    "@types/jest": "^24.0.23",
+    "@types/jest": "^25.1.0",
     "jest": "^24.9.0",
     "jest-runner-prettier": "^0.3.4",
     "prettier": "^1.19.1",
