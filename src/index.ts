@@ -34,5 +34,5 @@ export function breakdownURIPath(uri: string): string[] {
       ],
       [] as string[]
     )
-    .filter((elem, index, self) => index == self.indexOf(elem));
+    .filter((element, index, self) => index == self.indexOf(element));
 }

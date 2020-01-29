@@ -30,7 +30,10 @@
     "@stryker-mutator/jest-runner": "^2.4.0",
     "@stryker-mutator/typescript": "^2.4.0",
     "@types/jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-starstuff": "^1.4.5",
     "jest": "^24.9.0",
+    "jest-runner-eslint": "^0.7.6",
     "jest-runner-prettier": "^0.3.4",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.1",
@@ -39,5 +42,12 @@
   },
   "dependencies": {
     "uri-js": "^4.2.2"
+  },
+  "eslintConfig": {
+    "extends": "starstuff/auto",
+    "env": {
+      "node": true,
+      "browser": true
+    }
   }
 }
