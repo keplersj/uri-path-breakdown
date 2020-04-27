@@ -30,7 +30,7 @@ export function breakdownURIPath(uri: string): string[] {
               "/"
             : // If not, add nothing
               ""
-        }`
+        }`,
       ],
       [] as string[]
     )
